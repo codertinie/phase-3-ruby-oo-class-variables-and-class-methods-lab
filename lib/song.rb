@@ -1,4 +1,4 @@
-require 'pry'
+
 class Song
   @@count = 0
   @@genres = []
@@ -34,5 +34,3 @@ class Song
     @@artists.tally
   end
 end
-
-binding.pry
